@@ -18,4 +18,4 @@ Notas:
  - USER="demo"
  - PASS="demo"
  - PORT=3000
-2. Si no desea crear un nuevo usuario en PostgreSQL puede cambiar esos valores en el archivo `.env` que se de crear en la carpeta `API`
+2. Si no desea crear un nuevo usuario en PostgreSQL puede cambiar esos valores en el archivo `.env` que se debe crear en la carpeta `API`
