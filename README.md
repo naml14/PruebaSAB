@@ -12,4 +12,10 @@ Cuando se tenga estos 2 software instalados se debe hacer los siguiente:
 2. Crear una base de datos llamada `PruebaSAB`
 3. Leer los archivos `README.md` de cada carpeta.
 
-Nota: Si no desea crear un nuevo usuario en PostgreSQL puede cambiar esos valores en el archivo `.env` que se encuentra en la carpeta `API`
+Notas: 
+1. Debe crear un archivo `.env` en la carpeta API que incluya los siguientes datos:
+ - DATABASE=PruebaSAB
+ - USER="demo"
+ - PASS="demo"
+ - PORT=3000
+2. Si no desea crear un nuevo usuario en PostgreSQL puede cambiar esos valores en el archivo `.env` que se de crear en la carpeta `API`
